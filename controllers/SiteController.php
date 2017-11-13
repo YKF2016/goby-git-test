@@ -123,4 +123,13 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+    /**
+     * [actionTest description]
+     * @return [type] [description]
+     */
+    public function actionTest()
+    {
+        echo 'this is test controller';
+    }
 }
