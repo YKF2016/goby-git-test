@@ -131,5 +131,6 @@ class SiteController extends Controller
     public function actionTest()
     {
         echo 'this is test controller and this is the change part';
+        echo 'this is the second change';
     }
 }
